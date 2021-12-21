@@ -1,0 +1,12 @@
+D:\unit_testing\eBroker\ebroker.Common\bin\Debug\netcoreapp3.1\ebroker.Common.deps.json
+D:\unit_testing\eBroker\ebroker.Common\bin\Debug\netcoreapp3.1\ebroker.Common.dll
+D:\unit_testing\eBroker\ebroker.Common\bin\Debug\netcoreapp3.1\ebroker.Common.pdb
+D:\unit_testing\eBroker\ebroker.Common\bin\Debug\netcoreapp3.1\ebroker.Data.dll
+D:\unit_testing\eBroker\ebroker.Common\bin\Debug\netcoreapp3.1\ebroker.Data.pdb
+D:\unit_testing\eBroker\ebroker.Common\obj\Debug\netcoreapp3.1\ebroker.Common.csprojAssemblyReference.cache
+D:\unit_testing\eBroker\ebroker.Common\obj\Debug\netcoreapp3.1\ebroker.Common.AssemblyInfoInputs.cache
+D:\unit_testing\eBroker\ebroker.Common\obj\Debug\netcoreapp3.1\ebroker.Common.AssemblyInfo.cs
+D:\unit_testing\eBroker\ebroker.Common\obj\Debug\netcoreapp3.1\ebroker.Common.csproj.CoreCompileInputs.cache
+D:\unit_testing\eBroker\ebroker.Common\obj\Debug\netcoreapp3.1\ebroker.Common.csproj.CopyComplete
+D:\unit_testing\eBroker\ebroker.Common\obj\Debug\netcoreapp3.1\ebroker.Common.dll
+D:\unit_testing\eBroker\ebroker.Common\obj\Debug\netcoreapp3.1\ebroker.Common.pdb

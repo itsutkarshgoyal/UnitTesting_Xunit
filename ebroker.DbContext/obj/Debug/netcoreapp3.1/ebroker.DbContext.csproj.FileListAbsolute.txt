@@ -1,0 +1,9 @@
+D:\unit_testing\eBroker\ebroker.DbContext\bin\Debug\netcoreapp3.1\ebroker.DbContext.deps.json
+D:\unit_testing\eBroker\ebroker.DbContext\bin\Debug\netcoreapp3.1\ebroker.DbContext.dll
+D:\unit_testing\eBroker\ebroker.DbContext\bin\Debug\netcoreapp3.1\ebroker.DbContext.pdb
+D:\unit_testing\eBroker\ebroker.DbContext\obj\Debug\netcoreapp3.1\ebroker.DbContext.csprojAssemblyReference.cache
+D:\unit_testing\eBroker\ebroker.DbContext\obj\Debug\netcoreapp3.1\ebroker.DbContext.AssemblyInfoInputs.cache
+D:\unit_testing\eBroker\ebroker.DbContext\obj\Debug\netcoreapp3.1\ebroker.DbContext.AssemblyInfo.cs
+D:\unit_testing\eBroker\ebroker.DbContext\obj\Debug\netcoreapp3.1\ebroker.DbContext.csproj.CoreCompileInputs.cache
+D:\unit_testing\eBroker\ebroker.DbContext\obj\Debug\netcoreapp3.1\ebroker.DbContext.dll
+D:\unit_testing\eBroker\ebroker.DbContext\obj\Debug\netcoreapp3.1\ebroker.DbContext.pdb

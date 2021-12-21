@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ebroker.Common\ebroker.Common.csproj" />
+    <ProjectReference Include="..\ebroker.DbContext\ebroker.DataLayer.csproj" />
+  </ItemGroup>
+
+</Project>

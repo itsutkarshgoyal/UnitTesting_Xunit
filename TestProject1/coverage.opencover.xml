@@ -1,0 +1,1358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession>
+  <Summary numSequencePoints="376" visitedSequencePoints="126" numBranchPoints="50" visitedBranchPoints="27" sequenceCoverage="33.51" branchCoverage="54" maxCyclomaticComplexity="40" minCyclomaticComplexity="16" visitedClasses="7" numClasses="17" visitedMethods="31" numMethods="75" />
+  <Modules>
+    <Module hash="1E03AC1B-ABD1-480A-9C90-9A82A0198D35">
+      <ModulePath>ebroker.Business.dll</ModulePath>
+      <ModuleTime>2021-12-21T01.44.55</ModuleTime>
+      <ModuleName>ebroker.Business</ModuleName>
+      <Files>
+        <File uid="1" fullPath="D:\unit_testing\eBroker\ebroker.Business\StockManager.cs" />
+        <File uid="2" fullPath="D:\unit_testing\eBroker\ebroker.Business\UserManager.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="3" numMethods="3" />
+          <FullName>ebroker.Business.StockManager</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Collections.Generic.IEnumerable`1&lt;ebroker.Common.DTO.StockDTO&gt; ebroker.Business.StockManager::GetStockList()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="16" ordinal="0" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="17" ordinal="1" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="18" ordinal="2" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="16" ec="1" el="18" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>ebroker.Common.DTO.StockDTO ebroker.Business.StockManager::GetStockDetail(System.Int32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="20" ordinal="0" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="21" ordinal="1" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="22" ordinal="2" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="20" ec="1" el="22" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ebroker.Business.StockManager::.ctor(ebroker.DataLayer.IStockRepositary)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="12" ordinal="0" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="13" ordinal="1" sl="13" sc="1" el="13" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="14" ordinal="2" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="12" ec="1" el="14" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="75" visitedSequencePoints="74" numBranchPoints="34" visitedBranchPoints="27" sequenceCoverage="98.66" branchCoverage="79.41" maxCyclomaticComplexity="12" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="7" numMethods="7" />
+          <FullName>ebroker.Business.UserManager</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Collections.Generic.IEnumerable`1&lt;ebroker.Common.DTO.UserDetailDTO&gt; ebroker.Business.UserManager::GetAllUsers()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="30" ordinal="0" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="31" ordinal="1" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="32" ordinal="2" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="30" ec="1" el="32" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>ebroker.Common.DTO.UserDetailDTO ebroker.Business.UserManager::GetUserDetail(System.Int32)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="35" ordinal="0" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="36" ordinal="1" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="37" ordinal="2" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="35" ec="1" el="37" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="6" nPathComplexity="6" sequenceCoverage="90" branchCoverage="66.66" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="10" visitedSequencePoints="9" numBranchPoints="6" visitedBranchPoints="4" sequenceCoverage="90" branchCoverage="66.66" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>ebroker.Common.DTO.UserDetailDTO ebroker.Business.UserManager::AddFund(System.Int32,System.Int32)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="39" ordinal="0" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="40" ordinal="1" sl="40" sc="1" el="40" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="4" uspid="41" ordinal="2" sl="41" sc="1" el="41" ec="2" bec="4" bev="2" fileid="2" />
+                <SequencePoint vc="3" uspid="42" ordinal="3" sl="42" sc="1" el="42" ec="2" bec="2" bev="2" fileid="2" />
+                <SequencePoint vc="1" uspid="43" ordinal="4" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="44" ordinal="5" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="46" ordinal="6" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="47" ordinal="7" sl="47" sc="1" el="47" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="50" ordinal="8" sl="50" sc="1" el="50" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="51" ordinal="9" sl="51" sc="1" el="51" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="2" uspid="41" ordinal="0" path="0" offset="15" offsetend="17" sl="41" fileid="2" />
+                <BranchPoint vc="0" uspid="41" ordinal="1" path="1" offset="15" offsetend="23" sl="41" fileid="2" />
+                <BranchPoint vc="2" uspid="41" ordinal="2" path="0" offset="26" offsetend="28" sl="41" fileid="2" />
+                <BranchPoint vc="1" uspid="42" ordinal="4" path="0" offset="39" offsetend="41" sl="42" fileid="2" />
+                <BranchPoint vc="2" uspid="42" ordinal="5" path="1" offset="39" offsetend="75" sl="42" fileid="2" />
+                <BranchPoint vc="0" uspid="41" ordinal="3" path="1" offset="26" offsetend="105" sl="41" fileid="2" />
+              </BranchPoints>
+              <MethodPoint vc="9" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="39" ec="1" el="51" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="8" nPathComplexity="8" sequenceCoverage="100" branchCoverage="75" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="21" visitedSequencePoints="21" numBranchPoints="8" visitedBranchPoints="6" sequenceCoverage="100" branchCoverage="75" maxCyclomaticComplexity="8" minCyclomaticComplexity="8" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>ebroker.Common.DTO.UserAccountDTO ebroker.Business.UserManager::BuyEquity(ebroker.Common.DTO.UserAccountDTO)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="53" ordinal="0" sl="53" sc="1" el="53" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="4" uspid="54" ordinal="1" sl="54" sc="1" el="54" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="4" uspid="55" ordinal="2" sl="55" sc="1" el="55" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="4" uspid="56" ordinal="3" sl="56" sc="1" el="56" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="4" uspid="57" ordinal="4" sl="57" sc="1" el="57" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="4" uspid="58" ordinal="5" sl="58" sc="1" el="58" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="4" uspid="59" ordinal="6" sl="59" sc="1" el="59" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="7" uspid="60" ordinal="7" sl="60" sc="1" el="60" ec="2" bec="4" bev="3" fileid="2" />
+                <SequencePoint vc="3" uspid="61" ordinal="8" sl="61" sc="1" el="61" ec="2" bec="4" bev="3" fileid="2" />
+                <SequencePoint vc="2" uspid="62" ordinal="9" sl="62" sc="1" el="62" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="63" ordinal="10" sl="63" sc="1" el="63" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="64" ordinal="11" sl="64" sc="1" el="64" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="65" ordinal="12" sl="65" sc="1" el="65" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="66" ordinal="13" sl="66" sc="1" el="66" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="67" ordinal="14" sl="67" sc="1" el="67" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="68" ordinal="15" sl="68" sc="1" el="68" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="70" ordinal="16" sl="70" sc="1" el="70" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="71" ordinal="17" sl="71" sc="1" el="71" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="72" ordinal="18" sl="72" sc="1" el="72" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="4" uspid="74" ordinal="19" sl="74" sc="1" el="74" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="4" uspid="75" ordinal="20" sl="75" sc="1" el="75" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="4" uspid="60" ordinal="0" path="0" offset="98" offsetend="100" sl="60" fileid="2" />
+                <BranchPoint vc="0" uspid="60" ordinal="1" path="1" offset="98" offsetend="110" sl="60" fileid="2" />
+                <BranchPoint vc="3" uspid="60" ordinal="2" path="0" offset="115" offsetend="117" sl="60" fileid="2" />
+                <BranchPoint vc="3" uspid="61" ordinal="4" path="0" offset="119" offsetend="121" sl="61" fileid="2" />
+                <BranchPoint vc="0" uspid="61" ordinal="5" path="1" offset="119" offsetend="135" sl="61" fileid="2" />
+                <BranchPoint vc="2" uspid="61" ordinal="6" path="0" offset="140" offsetend="142" sl="61" fileid="2" />
+                <BranchPoint vc="1" uspid="61" ordinal="7" path="1" offset="140" offsetend="160" sl="61" fileid="2" />
+                <BranchPoint vc="4" uspid="60" ordinal="3" path="1" offset="115" offsetend="218" sl="60" fileid="2" />
+              </BranchPoints>
+              <MethodPoint vc="21" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="53" ec="1" el="75" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="12" nPathComplexity="12" sequenceCoverage="100" branchCoverage="75" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="25" visitedSequencePoints="25" numBranchPoints="12" visitedBranchPoints="9" sequenceCoverage="100" branchCoverage="75" maxCyclomaticComplexity="12" minCyclomaticComplexity="12" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>ebroker.Common.DTO.UserAccountDTO ebroker.Business.UserManager::SellEquity(ebroker.Common.DTO.UserAccountDTO)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="78" ordinal="0" sl="78" sc="1" el="78" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="79" ordinal="1" sl="79" sc="1" el="79" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="80" ordinal="2" sl="80" sc="1" el="80" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="81" ordinal="3" sl="81" sc="1" el="81" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="82" ordinal="4" sl="82" sc="1" el="82" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="83" ordinal="5" sl="83" sc="1" el="83" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="84" ordinal="6" sl="84" sc="1" el="84" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="85" ordinal="7" sl="85" sc="1" el="85" ec="2" bec="2" bev="1" fileid="2" />
+                <SequencePoint vc="6" uspid="87" ordinal="8" sl="87" sc="1" el="87" ec="2" bec="6" bev="4" fileid="2" />
+                <SequencePoint vc="3" uspid="88" ordinal="9" sl="88" sc="1" el="88" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="6" uspid="89" ordinal="10" sl="89" sc="1" el="89" ec="2" bec="2" bev="2" fileid="2" />
+                <SequencePoint vc="3" uspid="90" ordinal="11" sl="90" sc="1" el="90" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="91" ordinal="12" sl="91" sc="1" el="91" ec="2" bec="2" bev="2" fileid="2" />
+                <SequencePoint vc="2" uspid="92" ordinal="13" sl="92" sc="1" el="92" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="93" ordinal="14" sl="93" sc="1" el="93" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="94" ordinal="15" sl="94" sc="1" el="94" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="95" ordinal="16" sl="95" sc="1" el="95" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="96" ordinal="17" sl="96" sc="1" el="96" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="97" ordinal="18" sl="97" sc="1" el="97" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="99" ordinal="19" sl="99" sc="1" el="99" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="100" ordinal="20" sl="100" sc="1" el="100" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="101" ordinal="21" sl="101" sc="1" el="101" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="102" ordinal="22" sl="102" sc="1" el="102" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="104" ordinal="23" sl="104" sc="1" el="104" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="105" ordinal="24" sl="105" sc="1" el="105" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="85" ordinal="0" path="0" offset="120" offsetend="122" sl="85" fileid="2" />
+                <BranchPoint vc="3" uspid="85" ordinal="1" path="1" offset="120" offsetend="125" sl="85" fileid="2" />
+                <BranchPoint vc="3" uspid="87" ordinal="2" path="0" offset="153" offsetend="155" sl="87" fileid="2" />
+                <BranchPoint vc="3" uspid="87" ordinal="4" path="0" offset="163" offsetend="165" sl="87" fileid="2" />
+                <BranchPoint vc="0" uspid="87" ordinal="3" path="1" offset="153" offsetend="171" sl="87" fileid="2" />
+                <BranchPoint vc="0" uspid="87" ordinal="5" path="1" offset="163" offsetend="171" sl="87" fileid="2" />
+                <BranchPoint vc="3" uspid="87" ordinal="6" path="0" offset="176" offsetend="181" sl="87" fileid="2" />
+                <BranchPoint vc="3" uspid="89" ordinal="8" path="0" offset="209" offsetend="211" sl="89" fileid="2" />
+                <BranchPoint vc="2" uspid="91" ordinal="10" path="0" offset="230" offsetend="232" sl="91" fileid="2" />
+                <BranchPoint vc="1" uspid="91" ordinal="11" path="1" offset="230" offsetend="254" sl="91" fileid="2" />
+                <BranchPoint vc="3" uspid="89" ordinal="9" path="1" offset="209" offsetend="318" sl="89" fileid="2" />
+                <BranchPoint vc="3" uspid="87" ordinal="7" path="1" offset="176" offsetend="319" sl="87" fileid="2" />
+              </BranchPoints>
+              <MethodPoint vc="25" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="78" ec="1" el="105" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="8" nPathComplexity="8" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="8" visitedBranchPoints="8" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="8" minCyclomaticComplexity="8" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean ebroker.Business.UserManager::IsValidDate(System.DateTime)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="7" uspid="107" ordinal="0" sl="107" sc="1" el="107" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="7" uspid="108" ordinal="1" sl="108" sc="1" el="108" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="8" uspid="109" ordinal="2" sl="109" sc="1" el="109" ec="2" bec="8" bev="8" fileid="2" />
+                <SequencePoint vc="1" uspid="110" ordinal="3" sl="110" sc="1" el="110" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="111" ordinal="4" sl="111" sc="1" el="111" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="7" uspid="112" ordinal="5" sl="112" sc="1" el="112" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="7" uspid="113" ordinal="6" sl="113" sc="1" el="113" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="7" uspid="109" ordinal="0" path="0" offset="37" offsetend="39" sl="109" fileid="2" />
+                <BranchPoint vc="7" uspid="109" ordinal="2" path="0" offset="73" offsetend="75" sl="109" fileid="2" />
+                <BranchPoint vc="6" uspid="109" ordinal="4" path="0" offset="84" offsetend="86" sl="109" fileid="2" />
+                <BranchPoint vc="1" uspid="109" ordinal="1" path="1" offset="37" offsetend="99" sl="109" fileid="2" />
+                <BranchPoint vc="1" uspid="109" ordinal="3" path="1" offset="73" offsetend="99" sl="109" fileid="2" />
+                <BranchPoint vc="1" uspid="109" ordinal="5" path="1" offset="84" offsetend="99" sl="109" fileid="2" />
+                <BranchPoint vc="1" uspid="109" ordinal="6" path="0" offset="102" offsetend="104" sl="109" fileid="2" />
+                <BranchPoint vc="7" uspid="109" ordinal="7" path="1" offset="102" offsetend="108" sl="109" fileid="2" />
+              </BranchPoints>
+              <MethodPoint vc="7" uspid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="107" ec="1" el="113" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ebroker.Business.UserManager::.ctor(ebroker.DataLayer.IUserRepositary,ebroker.DataLayer.IStockRepositary,ebroker.Common.Helper.ICurrentDateTime)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="13" uspid="23" ordinal="0" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="13" uspid="24" ordinal="1" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="13" uspid="25" ordinal="2" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="13" uspid="26" ordinal="3" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="13" uspid="27" ordinal="4" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="13" uspid="28" ordinal="5" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="6" uspid="0" p8:type="SequencePoint" ordinal="6" offset="6" sc="0" sl="23" ec="1" el="28" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="672500F6-C90E-447F-AFE4-641AFD5127E9">
+      <ModulePath>ebroker.Common.dll</ModulePath>
+      <ModuleTime>2021-12-21T01.44.55</ModuleTime>
+      <ModuleName>ebroker.Common</ModuleName>
+      <Files>
+        <File uid="3" fullPath="D:\unit_testing\eBroker\ebroker.Common\Helper\CurrentDateTime.cs" />
+        <File uid="4" fullPath="D:\unit_testing\eBroker\ebroker.Common\Helper\Mapper.cs" />
+        <File uid="5" fullPath="D:\unit_testing\eBroker\ebroker.Common\DTO\StockDTO.cs" />
+        <File uid="6" fullPath="D:\unit_testing\eBroker\ebroker.Common\DTO\UserAccountDTO.cs" />
+        <File uid="7" fullPath="D:\unit_testing\eBroker\ebroker.Common\DTO\UserDetailDTO.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>ebroker.Common.Helper.CurrentDateTime</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.DateTime ebroker.Common.Helper.CurrentDateTime::GetUserDate()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="9" ordinal="0" sl="9" sc="1" el="9" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="10" ordinal="1" sl="10" sc="1" el="10" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="11" ordinal="2" sl="11" sc="1" el="11" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="9" ec="1" el="11" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="30" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="4" />
+          <FullName>ebroker.Common.Helper.Mapper</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>ebroker.Data.Database.UserDetail ebroker.Common.Helper.Mapper::MapUserDetailDTO(ebroker.Common.DTO.UserDetailDTO)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="10" ordinal="0" sl="10" sc="1" el="10" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="11" ordinal="1" sl="11" sc="1" el="11" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="12" ordinal="2" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="13" ordinal="3" sl="13" sc="1" el="13" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="14" ordinal="4" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="15" ordinal="5" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="16" ordinal="6" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="10" ec="1" el="16" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>ebroker.Common.DTO.UserDetailDTO ebroker.Common.Helper.Mapper::MapUserDetail(ebroker.Data.Database.UserDetail)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="19" ordinal="0" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="20" ordinal="1" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="21" ordinal="2" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="22" ordinal="3" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="23" ordinal="4" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="24" ordinal="5" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="25" ordinal="6" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="19" ec="1" el="25" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="8" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>ebroker.Common.DTO.UserAccountDTO ebroker.Common.Helper.Mapper::MapUserAccountDTO(ebroker.Data.Database.UserAccount)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="28" ordinal="0" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="29" ordinal="1" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="30" ordinal="2" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="31" ordinal="3" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="32" ordinal="4" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="33" ordinal="5" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="34" ordinal="6" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="35" ordinal="7" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="28" ec="1" el="35" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="8" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>ebroker.Data.Database.UserAccount ebroker.Common.Helper.Mapper::MapUserAccount(ebroker.Common.DTO.UserAccountDTO)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="38" ordinal="0" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="39" ordinal="1" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="40" ordinal="2" sl="40" sc="1" el="40" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="41" ordinal="3" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="42" ordinal="4" sl="42" sc="1" el="42" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="43" ordinal="5" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="44" ordinal="6" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="45" ordinal="7" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="38" ec="1" el="45" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="4" numMethods="4" />
+          <FullName>ebroker.Common.DTO.StockDTO</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 ebroker.Common.DTO.StockDTO::get_Id()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="7" uspid="15" ordinal="0" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="15" ec="1" el="15" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String ebroker.Common.DTO.StockDTO::get_Name()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="7" uspid="16" ordinal="0" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="16" ec="1" el="16" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 ebroker.Common.DTO.StockDTO::get_Price()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="17" uspid="17" ordinal="0" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="17" ec="1" el="17" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ebroker.Common.DTO.StockDTO::.ctor()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="7" uspid="10" ordinal="0" sl="10" sc="1" el="10" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="7" uspid="11" ordinal="1" sl="11" sc="1" el="11" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="7" uspid="13" ordinal="2" sl="13" sc="1" el="13" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="10" ec="1" el="13" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="4" numMethods="4" />
+          <FullName>ebroker.Common.DTO.UserAccountDTO</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 ebroker.Common.DTO.UserAccountDTO::get_Id()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="10" uspid="11" ordinal="0" sl="11" sc="1" el="11" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="11" ec="1" el="11" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 ebroker.Common.DTO.UserAccountDTO::get_UserId()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="65" uspid="12" ordinal="0" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="12" ec="1" el="12" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 ebroker.Common.DTO.UserAccountDTO::get_StockId()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="34" uspid="13" ordinal="0" sl="13" sc="1" el="13" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="13" ec="1" el="13" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 ebroker.Common.DTO.UserAccountDTO::get_Quantity()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="31" uspid="14" ordinal="0" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="14" ec="1" el="14" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="4" numMethods="4" />
+          <FullName>ebroker.Common.DTO.UserDetailDTO</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 ebroker.Common.DTO.UserDetailDTO::get_Id()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="8" uspid="15" ordinal="0" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="15" ec="1" el="15" bec="0" bev="0" fileid="7" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String ebroker.Common.DTO.UserDetailDTO::get_Name()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="8" uspid="16" ordinal="0" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="16" ec="1" el="16" bec="0" bev="0" fileid="7" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 ebroker.Common.DTO.UserDetailDTO::get_Balance()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="30" uspid="17" ordinal="0" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="17" ec="1" el="17" bec="0" bev="0" fileid="7" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ebroker.Common.DTO.UserDetailDTO::.ctor()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="11" uspid="10" ordinal="0" sl="10" sc="1" el="10" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="11" uspid="11" ordinal="1" sl="11" sc="1" el="11" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="11" uspid="13" ordinal="2" sl="13" sc="1" el="13" ec="2" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="10" ec="1" el="13" bec="0" bev="0" fileid="7" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="C2956735-5F95-485E-81C9-40C6FEB68CD5">
+      <ModulePath>ebroker.Data.dll</ModulePath>
+      <ModuleTime>2021-12-21T01.44.55</ModuleTime>
+      <ModuleName>ebroker.Data</ModuleName>
+      <Files>
+        <File uid="8" fullPath="D:\unit_testing\eBroker\ebroker.DataLayer\Database\AppDbContext.cs" />
+        <File uid="9" fullPath="D:\unit_testing\eBroker\ebroker.DataLayer\Database\Stock.cs" />
+        <File uid="10" fullPath="D:\unit_testing\eBroker\ebroker.DataLayer\Database\UserAccount.cs" />
+        <File uid="11" fullPath="D:\unit_testing\eBroker\ebroker.DataLayer\Database\UserDetail.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="39" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="7" />
+          <FullName>ebroker.Data.Database.AppDbContext</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>Microsoft.EntityFrameworkCore.DbSet`1&lt;ebroker.Data.Database.Stock&gt; ebroker.Data.Database.AppDbContext::get_Stock()</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="22" ordinal="0" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="22" ec="1" el="22" bec="0" bev="0" fileid="8" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>Microsoft.EntityFrameworkCore.DbSet`1&lt;ebroker.Data.Database.UserAccount&gt; ebroker.Data.Database.AppDbContext::get_UserAccount()</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="23" ordinal="0" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="23" ec="1" el="23" bec="0" bev="0" fileid="8" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>Microsoft.EntityFrameworkCore.DbSet`1&lt;ebroker.Data.Database.UserDetail&gt; ebroker.Data.Database.AppDbContext::get_UserDetail()</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="24" ordinal="0" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="24" ec="1" el="24" bec="0" bev="0" fileid="8" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ebroker.Data.Database.AppDbContext::OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="27" ordinal="0" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="28" ordinal="1" sl="28" sc="1" el="28" ec="2" bec="2" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="29" ordinal="2" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="30" ordinal="3" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="31" ordinal="4" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="32" ordinal="5" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="28" ordinal="0" path="0" offset="12" offsetend="14" sl="28" fileid="8" />
+                <BranchPoint vc="0" uspid="28" ordinal="1" path="1" offset="12" offsetend="29" sl="28" fileid="8" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="27" ec="1" el="32" bec="0" bev="0" fileid="8" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="24" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ebroker.Data.Database.AppDbContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="35" ordinal="0" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="36" ordinal="1" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="37" ordinal="2" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="38" ordinal="3" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="39" ordinal="4" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="41" ordinal="5" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="42" ordinal="6" sl="42" sc="1" el="42" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="43" ordinal="7" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="44" ordinal="8" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="45" ordinal="9" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="46" ordinal="10" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="47" ordinal="11" sl="47" sc="1" el="47" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="48" ordinal="12" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="49" ordinal="13" sl="49" sc="1" el="49" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="50" ordinal="14" sl="50" sc="1" el="50" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="51" ordinal="15" sl="51" sc="1" el="51" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="52" ordinal="16" sl="52" sc="1" el="52" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="53" ordinal="17" sl="53" sc="1" el="53" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="54" ordinal="18" sl="54" sc="1" el="54" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="56" ordinal="19" sl="56" sc="1" el="56" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="57" ordinal="20" sl="57" sc="1" el="57" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="58" ordinal="21" sl="58" sc="1" el="58" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="59" ordinal="22" sl="59" sc="1" el="59" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="62" ordinal="23" sl="62" sc="1" el="62" ec="2" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="35" ec="1" el="62" bec="0" bev="0" fileid="8" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ebroker.Data.Database.AppDbContext::.ctor()</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="13" ordinal="0" sl="13" sc="1" el="13" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="14" ordinal="1" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="15" ordinal="2" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="13" ec="1" el="15" bec="0" bev="0" fileid="8" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ebroker.Data.Database.AppDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1&lt;ebroker.Data.Database.AppDbContext&gt;)</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="18" ordinal="0" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="19" ordinal="1" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="20" ordinal="2" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="6" offset="6" sc="0" sl="18" ec="1" el="20" bec="0" bev="0" fileid="8" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="8" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="5" />
+          <FullName>ebroker.Data.Database.Stock</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 ebroker.Data.Database.Stock::get_Id()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="21" ordinal="0" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="21" ec="1" el="21" bec="0" bev="0" fileid="9" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String ebroker.Data.Database.Stock::get_Name()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="25" ordinal="0" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="25" ec="1" el="25" bec="0" bev="0" fileid="9" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 ebroker.Data.Database.Stock::get_Price()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="27" ordinal="0" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="27" ec="1" el="27" bec="0" bev="0" fileid="9" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Collections.Generic.ICollection`1&lt;ebroker.Data.Database.UserAccount&gt; ebroker.Data.Database.Stock::get_UserAccount()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="30" ordinal="0" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="30" ec="1" el="30" bec="0" bev="0" fileid="9" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ebroker.Data.Database.Stock::.ctor()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="14" ordinal="0" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="15" ordinal="1" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="16" ordinal="2" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="17" ordinal="3" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="14" ec="1" el="17" bec="0" bev="0" fileid="9" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="6" />
+          <FullName>ebroker.Data.Database.UserAccount</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 ebroker.Data.Database.UserAccount::get_Id()</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="16" ordinal="0" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="16" ec="1" el="16" bec="0" bev="0" fileid="10" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 ebroker.Data.Database.UserAccount::get_UserId()</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="18" ordinal="0" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="18" ec="1" el="18" bec="0" bev="0" fileid="10" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 ebroker.Data.Database.UserAccount::get_StockId()</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="20" ordinal="0" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="20" ec="1" el="20" bec="0" bev="0" fileid="10" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 ebroker.Data.Database.UserAccount::get_Quantity()</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="22" ordinal="0" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="22" ec="1" el="22" bec="0" bev="0" fileid="10" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>ebroker.Data.Database.Stock ebroker.Data.Database.UserAccount::get_Stock()</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="26" ordinal="0" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="26" ec="1" el="26" bec="0" bev="0" fileid="10" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>ebroker.Data.Database.UserDetail ebroker.Data.Database.UserAccount::get_User()</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="29" ordinal="0" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="29" ec="1" el="29" bec="0" bev="0" fileid="10" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="8" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="5" />
+          <FullName>ebroker.Data.Database.UserDetail</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 ebroker.Data.Database.UserDetail::get_Id()</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="21" ordinal="0" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="21" ec="1" el="21" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String ebroker.Data.Database.UserDetail::get_Name()</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="25" ordinal="0" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="25" ec="1" el="25" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 ebroker.Data.Database.UserDetail::get_Balance()</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="27" ordinal="0" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="27" ec="1" el="27" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Collections.Generic.ICollection`1&lt;ebroker.Data.Database.UserAccount&gt; ebroker.Data.Database.UserDetail::get_UserAccount()</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="30" ordinal="0" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="30" ec="1" el="30" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ebroker.Data.Database.UserDetail::.ctor()</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="14" ordinal="0" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="15" ordinal="1" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="16" ordinal="2" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="17" ordinal="3" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="14" ec="1" el="17" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="A7B0FCB2-6E09-4EAA-8F37-CCD1A3EB1D3F">
+      <ModulePath>ebroker.DataLayer.dll</ModulePath>
+      <ModuleTime>2021-12-21T01.44.55</ModuleTime>
+      <ModuleName>ebroker.DataLayer</ModuleName>
+      <Files>
+        <File uid="12" fullPath="D:\unit_testing\eBroker\ebroker.DbContext\StockRepositary.cs" />
+        <File uid="13" fullPath="D:\unit_testing\eBroker\ebroker.DbContext\UserRepositary.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="29" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>ebroker.DataLayer.StockRepositary</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="16" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Collections.Generic.IEnumerable`1&lt;ebroker.Common.DTO.StockDTO&gt; ebroker.DataLayer.StockRepositary::GetAllStocks()</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="13" ordinal="0" sl="13" sc="1" el="13" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="14" ordinal="1" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="15" ordinal="2" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="16" ordinal="3" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="17" ordinal="4" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="18" ordinal="5" sl="18" sc="1" el="18" ec="2" bec="2" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="19" ordinal="6" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="20" ordinal="7" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="21" ordinal="8" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="22" ordinal="9" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="23" ordinal="10" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="24" ordinal="11" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="25" ordinal="12" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="26" ordinal="13" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="28" ordinal="14" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="29" ordinal="15" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="18" ordinal="1" path="1" offset="153" offsetend="74" sl="18" fileid="12" />
+                <BranchPoint vc="0" uspid="18" ordinal="0" path="0" offset="153" offsetend="155" sl="18" fileid="12" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="13" ec="1" el="29" bec="0" bev="0" fileid="12" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="13" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>ebroker.Common.DTO.StockDTO ebroker.DataLayer.StockRepositary::GetStockDetail(System.Int32)</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="32" ordinal="0" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="33" ordinal="1" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="34" ordinal="2" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="35" ordinal="3" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="36" ordinal="4" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="37" ordinal="5" sl="37" sc="1" el="37" ec="2" bec="2" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="38" ordinal="6" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="39" ordinal="7" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="40" ordinal="8" sl="40" sc="1" el="40" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="41" ordinal="9" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="42" ordinal="10" sl="42" sc="1" el="42" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="44" ordinal="11" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="45" ordinal="12" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="37" ordinal="0" path="0" offset="143" offsetend="145" sl="37" fileid="12" />
+                <BranchPoint vc="0" uspid="37" ordinal="1" path="1" offset="143" offsetend="186" sl="37" fileid="12" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="32" ec="1" el="45" bec="0" bev="0" fileid="12" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="88" visitedSequencePoints="0" numBranchPoints="8" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="8" />
+          <FullName>ebroker.DataLayer.UserRepositary</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="16" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Collections.Generic.IEnumerable`1&lt;ebroker.Common.DTO.UserDetailDTO&gt; ebroker.DataLayer.UserRepositary::GetAllUsers()</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="15" ordinal="0" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="16" ordinal="1" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="17" ordinal="2" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="18" ordinal="3" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="19" ordinal="4" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="20" ordinal="5" sl="20" sc="1" el="20" ec="2" bec="2" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="21" ordinal="6" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="22" ordinal="7" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="23" ordinal="8" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="24" ordinal="9" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="25" ordinal="10" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="26" ordinal="11" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="27" ordinal="12" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="28" ordinal="13" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="30" ordinal="14" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="31" ordinal="15" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="20" ordinal="1" path="1" offset="153" offsetend="74" sl="20" fileid="13" />
+                <BranchPoint vc="0" uspid="20" ordinal="0" path="0" offset="153" offsetend="155" sl="20" fileid="13" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="15" ec="1" el="31" bec="0" bev="0" fileid="13" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="11" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>ebroker.Common.DTO.UserDetailDTO ebroker.DataLayer.UserRepositary::GetUserDetail(System.Int32)</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="34" ordinal="0" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="35" ordinal="1" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="36" ordinal="2" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="37" ordinal="3" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="38" ordinal="4" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="39" ordinal="5" sl="39" sc="1" el="39" ec="2" bec="2" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="40" ordinal="6" sl="40" sc="1" el="40" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="41" ordinal="7" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="42" ordinal="8" sl="42" sc="1" el="42" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="44" ordinal="9" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="45" ordinal="10" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="39" ordinal="0" path="0" offset="143" offsetend="145" sl="39" fileid="13" />
+                <BranchPoint vc="0" uspid="39" ordinal="1" path="1" offset="143" offsetend="154" sl="39" fileid="13" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="34" ec="1" el="45" bec="0" bev="0" fileid="13" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="14" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>ebroker.Common.DTO.UserAccountDTO ebroker.DataLayer.UserRepositary::GetUserAccountDetail(System.Int32)</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="48" ordinal="0" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="49" ordinal="1" sl="49" sc="1" el="49" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="50" ordinal="2" sl="50" sc="1" el="50" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="51" ordinal="3" sl="51" sc="1" el="51" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="52" ordinal="4" sl="52" sc="1" el="52" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="53" ordinal="5" sl="53" sc="1" el="53" ec="2" bec="2" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="54" ordinal="6" sl="54" sc="1" el="54" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="55" ordinal="7" sl="55" sc="1" el="55" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="56" ordinal="8" sl="56" sc="1" el="56" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="57" ordinal="9" sl="57" sc="1" el="57" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="58" ordinal="10" sl="58" sc="1" el="58" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="59" ordinal="11" sl="59" sc="1" el="59" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="60" ordinal="12" sl="60" sc="1" el="60" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="61" ordinal="13" sl="61" sc="1" el="61" ec="2" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="53" ordinal="0" path="0" offset="143" offsetend="145" sl="53" fileid="13" />
+                <BranchPoint vc="0" uspid="53" ordinal="1" path="1" offset="143" offsetend="199" sl="53" fileid="13" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="48" ec="1" el="61" bec="0" bev="0" fileid="13" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="9" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>ebroker.Common.DTO.UserAccountDTO ebroker.DataLayer.UserRepositary::InsertUserAccount(ebroker.Common.DTO.UserAccountDTO)</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="64" ordinal="0" sl="64" sc="1" el="64" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="65" ordinal="1" sl="65" sc="1" el="65" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="66" ordinal="2" sl="66" sc="1" el="66" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="67" ordinal="3" sl="67" sc="1" el="67" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="68" ordinal="4" sl="68" sc="1" el="68" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="69" ordinal="5" sl="69" sc="1" el="69" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="70" ordinal="6" sl="70" sc="1" el="70" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="72" ordinal="7" sl="72" sc="1" el="72" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="73" ordinal="8" sl="73" sc="1" el="73" ec="2" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="64" ec="1" el="73" bec="0" bev="0" fileid="13" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="9" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>ebroker.Common.DTO.UserDetailDTO ebroker.DataLayer.UserRepositary::InsertUserDetail(ebroker.Common.DTO.UserDetailDTO)</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="76" ordinal="0" sl="76" sc="1" el="76" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="77" ordinal="1" sl="77" sc="1" el="77" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="78" ordinal="2" sl="78" sc="1" el="78" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="79" ordinal="3" sl="79" sc="1" el="79" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="80" ordinal="4" sl="80" sc="1" el="80" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="81" ordinal="5" sl="81" sc="1" el="81" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="82" ordinal="6" sl="82" sc="1" el="82" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="84" ordinal="7" sl="84" sc="1" el="84" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="85" ordinal="8" sl="85" sc="1" el="85" ec="2" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="76" ec="1" el="85" bec="0" bev="0" fileid="13" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="9" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>ebroker.Common.DTO.UserAccountDTO ebroker.DataLayer.UserRepositary::UpdateUserAccount(ebroker.Common.DTO.UserAccountDTO)</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="88" ordinal="0" sl="88" sc="1" el="88" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="89" ordinal="1" sl="89" sc="1" el="89" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="90" ordinal="2" sl="90" sc="1" el="90" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="91" ordinal="3" sl="91" sc="1" el="91" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="92" ordinal="4" sl="92" sc="1" el="92" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="93" ordinal="5" sl="93" sc="1" el="93" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="94" ordinal="6" sl="94" sc="1" el="94" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="96" ordinal="7" sl="96" sc="1" el="96" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="97" ordinal="8" sl="97" sc="1" el="97" ec="2" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="88" ec="1" el="97" bec="0" bev="0" fileid="13" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="9" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>ebroker.Common.DTO.UserDetailDTO ebroker.DataLayer.UserRepositary::UpdateUserDetail(ebroker.Common.DTO.UserDetailDTO)</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="100" ordinal="0" sl="100" sc="1" el="100" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="101" ordinal="1" sl="101" sc="1" el="101" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="102" ordinal="2" sl="102" sc="1" el="102" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="103" ordinal="3" sl="103" sc="1" el="103" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="104" ordinal="4" sl="104" sc="1" el="104" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="105" ordinal="5" sl="105" sc="1" el="105" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="106" ordinal="6" sl="106" sc="1" el="106" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="107" ordinal="7" sl="107" sc="1" el="107" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="108" ordinal="8" sl="108" sc="1" el="108" ec="2" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="6" offset="6" sc="0" sl="100" ec="1" el="108" bec="0" bev="0" fileid="13" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="11" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ebroker.DataLayer.UserRepositary::DeleteUserAccount(System.Int32)</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="111" ordinal="0" sl="111" sc="1" el="111" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="112" ordinal="1" sl="112" sc="1" el="112" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="113" ordinal="2" sl="113" sc="1" el="113" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="114" ordinal="3" sl="114" sc="1" el="114" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="115" ordinal="4" sl="115" sc="1" el="115" ec="2" bec="2" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="116" ordinal="5" sl="116" sc="1" el="116" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="117" ordinal="6" sl="117" sc="1" el="117" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="118" ordinal="7" sl="118" sc="1" el="118" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="119" ordinal="8" sl="119" sc="1" el="119" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="120" ordinal="9" sl="120" sc="1" el="120" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="121" ordinal="10" sl="121" sc="1" el="121" ec="2" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="115" ordinal="0" path="0" offset="134" offsetend="136" sl="115" fileid="13" />
+                <BranchPoint vc="0" uspid="115" ordinal="1" path="1" offset="134" offsetend="158" sl="115" fileid="13" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="7" offset="7" sc="0" sl="111" ec="1" el="121" bec="0" bev="0" fileid="13" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="00FB1959-897E-4C9F-802F-F65509BB388B">
+      <ModulePath>eBroker.WebAPI.dll</ModulePath>
+      <ModuleTime>2021-12-21T01.44.55</ModuleTime>
+      <ModuleName>eBroker.WebAPI</ModuleName>
+      <Files>
+        <File uid="14" fullPath="D:\unit_testing\eBroker\eBroker.WebAPI\Program.cs" />
+        <File uid="15" fullPath="D:\unit_testing\eBroker\eBroker.WebAPI\Startup.cs" />
+        <File uid="16" fullPath="D:\unit_testing\eBroker\eBroker.WebAPI\Controllers\StockController.cs" />
+        <File uid="17" fullPath="D:\unit_testing\eBroker\eBroker.WebAPI\Controllers\UserController.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="8" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>eBroker.WebAPI.Program</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void eBroker.WebAPI.Program::Main(System.String[])</Name>
+              <FileRef uid="14" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="15" ordinal="0" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="0" uspid="16" ordinal="1" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="0" uspid="17" ordinal="2" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="15" ec="1" el="17" bec="0" bev="0" fileid="14" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>Microsoft.Extensions.Hosting.IHostBuilder eBroker.WebAPI.Program::CreateHostBuilder(System.String[])</Name>
+              <FileRef uid="14" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="20" ordinal="0" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="0" uspid="21" ordinal="1" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="0" uspid="22" ordinal="2" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="0" uspid="23" ordinal="3" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="0" uspid="24" ordinal="4" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="20" ec="1" el="24" bec="0" bev="0" fileid="14" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="30" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="4" />
+          <FullName>eBroker.WebAPI.Startup</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>Microsoft.Extensions.Configuration.IConfiguration eBroker.WebAPI.Startup::get_Configuration()</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="26" ordinal="0" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="26" ec="1" el="26" bec="0" bev="0" fileid="15" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="9" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void eBroker.WebAPI.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="30" ordinal="0" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="31" ordinal="1" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="32" ordinal="2" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="33" ordinal="3" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="34" ordinal="4" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="35" ordinal="5" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="36" ordinal="6" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="37" ordinal="7" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="38" ordinal="8" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="30" ec="1" el="38" bec="0" bev="0" fileid="15" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="16" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void eBroker.WebAPI.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="42" ordinal="0" sl="42" sc="1" el="42" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="43" ordinal="1" sl="43" sc="1" el="43" ec="2" bec="2" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="44" ordinal="2" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="45" ordinal="3" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="46" ordinal="4" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="48" ordinal="5" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="50" ordinal="6" sl="50" sc="1" el="50" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="52" ordinal="7" sl="52" sc="1" el="52" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="53" ordinal="8" sl="53" sc="1" el="53" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="54" ordinal="9" sl="54" sc="1" el="54" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="55" ordinal="10" sl="55" sc="1" el="55" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="57" ordinal="11" sl="57" sc="1" el="57" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="58" ordinal="12" sl="58" sc="1" el="58" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="59" ordinal="13" sl="59" sc="1" el="59" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="60" ordinal="14" sl="60" sc="1" el="60" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="61" ordinal="15" sl="61" sc="1" el="61" ec="2" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="43" ordinal="0" path="0" offset="9" offsetend="11" sl="43" fileid="15" />
+                <BranchPoint vc="0" uspid="43" ordinal="1" path="1" offset="9" offsetend="20" sl="43" fileid="15" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="42" ec="1" el="61" bec="0" bev="0" fileid="15" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void eBroker.WebAPI.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="21" ordinal="0" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="22" ordinal="1" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="23" ordinal="2" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="24" ordinal="3" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="21" ec="1" el="24" bec="0" bev="0" fileid="15" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="3" numMethods="3" />
+          <FullName>eBroker.WebAPI.Controllers.StockController</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Collections.Generic.IEnumerable`1&lt;ebroker.Common.DTO.StockDTO&gt; eBroker.WebAPI.Controllers.StockController::GetStocksList()</Name>
+              <FileRef uid="16" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="21" ordinal="0" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="16" />
+                <SequencePoint vc="1" uspid="22" ordinal="1" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="16" />
+                <SequencePoint vc="1" uspid="23" ordinal="2" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="16" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="21" ec="1" el="23" bec="0" bev="0" fileid="16" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>ebroker.Common.DTO.StockDTO eBroker.WebAPI.Controllers.StockController::GetStockDetail(System.Int32)</Name>
+              <FileRef uid="16" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="28" ordinal="0" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="16" />
+                <SequencePoint vc="1" uspid="29" ordinal="1" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="16" />
+                <SequencePoint vc="1" uspid="30" ordinal="2" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="16" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="28" ec="1" el="30" bec="0" bev="0" fileid="16" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void eBroker.WebAPI.Controllers.StockController::.ctor(ebroker.Business.Interface.IStockManager)</Name>
+              <FileRef uid="16" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="14" ordinal="0" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="16" />
+                <SequencePoint vc="2" uspid="15" ordinal="1" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="16" />
+                <SequencePoint vc="2" uspid="16" ordinal="2" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="16" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="14" ec="1" el="16" bec="0" bev="0" fileid="16" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="18" visitedSequencePoints="18" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="6" numMethods="6" />
+          <FullName>eBroker.WebAPI.Controllers.UserController</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Collections.Generic.IEnumerable`1&lt;ebroker.Common.DTO.UserDetailDTO&gt; eBroker.WebAPI.Controllers.UserController::GetAllUsers()</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="22" ordinal="0" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="23" ordinal="1" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="24" ordinal="2" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="22" ec="1" el="24" bec="0" bev="0" fileid="17" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void eBroker.WebAPI.Controllers.UserController::AddFund(System.Int32,System.Int32)</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="28" ordinal="0" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="29" ordinal="1" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="30" ordinal="2" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="28" ec="1" el="30" bec="0" bev="0" fileid="17" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>ebroker.Common.DTO.UserDetailDTO eBroker.WebAPI.Controllers.UserController::GetUserDetail(System.Int32)</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="34" ordinal="0" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="35" ordinal="1" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="36" ordinal="2" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="34" ec="1" el="36" bec="0" bev="0" fileid="17" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void eBroker.WebAPI.Controllers.UserController::BuyEquity(ebroker.Common.DTO.UserAccountDTO)</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="40" ordinal="0" sl="40" sc="1" el="40" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="41" ordinal="1" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="42" ordinal="2" sl="42" sc="1" el="42" ec="2" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="40" ec="1" el="42" bec="0" bev="0" fileid="17" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void eBroker.WebAPI.Controllers.UserController::SellEquity(ebroker.Common.DTO.UserAccountDTO)</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="46" ordinal="0" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="47" ordinal="1" sl="47" sc="1" el="47" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="48" ordinal="2" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="46" ec="1" el="48" bec="0" bev="0" fileid="17" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void eBroker.WebAPI.Controllers.UserController::.ctor(ebroker.Business.Interface.IUserManager)</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="10" uspid="15" ordinal="0" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="5" uspid="16" ordinal="1" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="5" uspid="17" ordinal="2" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="15" ec="1" el="17" bec="0" bev="0" fileid="17" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>

@@ -1,0 +1,12 @@
+D:\unit_testing\eBroker\ebroker.DataLayer\bin\Debug\netcoreapp3.1\ebroker.Data.deps.json
+D:\unit_testing\eBroker\ebroker.DataLayer\bin\Debug\netcoreapp3.1\ebroker.Data.runtimeconfig.json
+D:\unit_testing\eBroker\ebroker.DataLayer\bin\Debug\netcoreapp3.1\ebroker.Data.runtimeconfig.dev.json
+D:\unit_testing\eBroker\ebroker.DataLayer\bin\Debug\netcoreapp3.1\ebroker.Data.dll
+D:\unit_testing\eBroker\ebroker.DataLayer\bin\Debug\netcoreapp3.1\ebroker.Data.pdb
+D:\unit_testing\eBroker\ebroker.DataLayer\obj\Debug\netcoreapp3.1\ebroker.Data.csprojAssemblyReference.cache
+D:\unit_testing\eBroker\ebroker.DataLayer\obj\Debug\netcoreapp3.1\ebroker.Data.AssemblyInfoInputs.cache
+D:\unit_testing\eBroker\ebroker.DataLayer\obj\Debug\netcoreapp3.1\ebroker.Data.AssemblyInfo.cs
+D:\unit_testing\eBroker\ebroker.DataLayer\obj\Debug\netcoreapp3.1\ebroker.Data.csproj.CoreCompileInputs.cache
+D:\unit_testing\eBroker\ebroker.DataLayer\obj\Debug\netcoreapp3.1\ebroker.Data.dll
+D:\unit_testing\eBroker\ebroker.DataLayer\obj\Debug\netcoreapp3.1\ebroker.Data.pdb
+D:\unit_testing\eBroker\ebroker.DataLayer\obj\Debug\netcoreapp3.1\ebroker.Data.genruntimeconfig.cache
